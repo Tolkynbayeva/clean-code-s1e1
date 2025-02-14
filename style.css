@@ -5,40 +5,40 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.todo__header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.todo__header-img {
   width: 100%;
 }
 
-.aaa .more_inf {
+.todo__header-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa {
+  .todo__header {
     text-align: center;
   }
 }
 
-.centered-main-page-element {
+.todo__main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
-.task {
+.todo__add-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.todo__add-wrapper {
   display: flex;
 }
 
@@ -139,13 +139,13 @@ li>input[type="text"] {
   width: 226px
 }
 
-button.delete img {
+button.todo__item-btn_delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+button.todo__item-btn_delete img:hover {
   transform: rotateZ(0);
 }
 
@@ -160,11 +160,11 @@ ul li input[type="text"] {
   display: none
 }
 
-ul li.editMode input[type="text"] {
+ul li.todo__item_edit-mode input[type="text"] {
   display: inline-block;
   width: 224px
 }
 
-ul li.editMode label {
+ul li.todo__item_edit-mode label {
   display: none;
 }

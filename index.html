@@ -13,12 +13,13 @@
     harset="utf-8">
 </head>
 <body>
-  <div class="todo__header">
+  <header class="todo__header">
     <img class="todo__header-img" src="./eisenhower-matrix.jpg">
     <a class="todo__header-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
-  <div class="todo__main">
-    <p class="todo__add">
+  </header>
+
+  <main class="todo__main">
+    <div class="todo__add">
       <label class="todo__add-label" for="new-task">Add Item</label>
     <div class="todo__add-wrapper">
       <input 
@@ -27,7 +28,7 @@
         type="text">
       <button class="todo__btn todo__btn-add">Add</button>
     </div>
-    </p>
+    </div>
     <h3 class="todo__title">Todo</h3>
     <ul class="todo__list todo__list-incomplete" id="incomplete-tasks">
       <li class="todo__item">
@@ -64,7 +65,7 @@
         </button>
       </li>
     </ul>
-  </div>
+  </main>
   <script src="app.js"></script>
 </body>
 
